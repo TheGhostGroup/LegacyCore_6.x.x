@@ -7,7 +7,7 @@ git:
 
 before_install:
   - sudo apt-get -qq update
-  - sudo apt-get -qq install git clang cmake make gcc g++ libmariadbclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-all-dev mariadb-server p7zip libmariadb-client-lgpl-dev-compat
+  - sudo apt-get -qq install git clang cmake make gcc g++ libmysqlclient-dev libmysql++-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-all-dev p7zip
   - export CC=clang-3.5 CXX=clang++-3.5
 
 install:
