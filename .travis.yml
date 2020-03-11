@@ -27,6 +27,7 @@ addons:
       - libreadline6-dev
       - zlib1g-dev
       - libbz2-dev
+      - libzmq-dev
 
 services:
   - mysql
